@@ -25,3 +25,10 @@ Disclaimer! Marlin firmware needs to be configured aND CUSTOMIZED by the custome
  ## History
  
  - 18-21th of May - Added BTT SKR Mini E3 v2.0 motherboard firmware and related open source materials.
+
+## Troubleshooting missing Arduino libraries
+
+Some community sketches referenced from this repository (for example, BSB-LAN) require additional
+Arduino libraries. If the build fails with an error such as `fatal error: PubSubClient.h: No such
+file or directory`, install the required dependency using the Arduino Library Manager or follow the
+manual installation steps documented in [docs/troubleshooting/arduino-dependencies.md](docs/troubleshooting/arduino-dependencies.md).
